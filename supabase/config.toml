@@ -1,0 +1,19 @@
+project_id = "tyulhdzrlmkyzmjxegio"
+
+[functions.generate-presentation]
+verify_jwt = false
+
+[functions.process-file] 
+verify_jwt = true
+
+[functions.export-presentation]
+verify_jwt = true
+
+[functions.refine-slide]
+verify_jwt = true
+
+[functions.generate-image]
+verify_jwt = true
+
+[functions.enhance-speaker-notes]
+verify_jwt = true
